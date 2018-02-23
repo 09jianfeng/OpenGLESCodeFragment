@@ -33,9 +33,10 @@
 		788F1340203293D5006FEC63 /* AGLKSkyboxEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 788F132A203293D5006FEC63 /* AGLKSkyboxEffect.m */; };
 		788F1341203293D5006FEC63 /* AGLKFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = 788F132D203293D5006FEC63 /* AGLKFilters.m */; };
 		788F1345203293F7006FEC63 /* texture_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 788F1342203293F7006FEC63 /* texture_01.m */; };
-		788F1346203293F7006FEC63 /* leaves.gif in Resources */ = {isa = PBXBuildFile; fileRef = 788F1343203293F7006FEC63 /* leaves.gif */; };
 		788F134B2032C3F1006FEC63 /* Texture_02.m in Sources */ = {isa = PBXBuildFile; fileRef = 788F134A2032C3F1006FEC63 /* Texture_02.m */; };
 		788F134E2032D1A2006FEC63 /* Texture_03.m in Sources */ = {isa = PBXBuildFile; fileRef = 788F134D2032D1A2006FEC63 /* Texture_03.m */; };
+		78943654203FBAD300910570 /* leaves.gif in Resources */ = {isa = PBXBuildFile; fileRef = 78943653203FBAD300910570 /* leaves.gif */; };
+		78943657203FBB2300910570 /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 78943656203FBB2300910570 /* grid.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,12 +103,13 @@
 		788F132F203293D5006FEC63 /* AGLKAxisAllignedBoundingBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKAxisAllignedBoundingBox.h; sourceTree = "<group>"; };
 		788F1330203293D5006FEC63 /* AGLKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKViewController.h; sourceTree = "<group>"; };
 		788F1342203293F7006FEC63 /* texture_01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = texture_01.m; sourceTree = "<group>"; };
-		788F1343203293F7006FEC63 /* leaves.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = leaves.gif; sourceTree = "<group>"; };
 		788F1344203293F7006FEC63 /* texture_01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = texture_01.h; sourceTree = "<group>"; };
 		788F13492032C3F1006FEC63 /* Texture_02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture_02.h; sourceTree = "<group>"; };
 		788F134A2032C3F1006FEC63 /* Texture_02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Texture_02.m; sourceTree = "<group>"; };
 		788F134C2032D1A2006FEC63 /* Texture_03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture_03.h; sourceTree = "<group>"; };
 		788F134D2032D1A2006FEC63 /* Texture_03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Texture_03.m; sourceTree = "<group>"; };
+		78943653203FBAD300910570 /* leaves.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = leaves.gif; sourceTree = "<group>"; };
+		78943656203FBB2300910570 /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,16 +201,6 @@
 			path = VC;
 			sourceTree = "<group>";
 		};
-		788F1311203292E1006FEC63 /* texture_01 */ = {
-			isa = PBXGroup;
-			children = (
-				788F1343203293F7006FEC63 /* leaves.gif */,
-				788F1344203293F7006FEC63 /* texture_01.h */,
-				788F1342203293F7006FEC63 /* texture_01.m */,
-			);
-			path = texture_01;
-			sourceTree = "<group>";
-		};
 		788F1312203293D5006FEC63 /* AGLKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -256,21 +248,24 @@
 		788F13472032C3A5006FEC63 /* texture */ = {
 			isa = PBXGroup;
 			children = (
+				78943655203FBAD700910570 /* resource */,
 				788F134C2032D1A2006FEC63 /* Texture_03.h */,
 				788F134D2032D1A2006FEC63 /* Texture_03.m */,
-				788F13482032C3B6006FEC63 /* texture_02 */,
-				788F1311203292E1006FEC63 /* texture_01 */,
+				788F13492032C3F1006FEC63 /* Texture_02.h */,
+				788F134A2032C3F1006FEC63 /* Texture_02.m */,
+				788F1344203293F7006FEC63 /* texture_01.h */,
+				788F1342203293F7006FEC63 /* texture_01.m */,
 			);
 			path = texture;
 			sourceTree = "<group>";
 		};
-		788F13482032C3B6006FEC63 /* texture_02 */ = {
+		78943655203FBAD700910570 /* resource */ = {
 			isa = PBXGroup;
 			children = (
-				788F13492032C3F1006FEC63 /* Texture_02.h */,
-				788F134A2032C3F1006FEC63 /* Texture_02.m */,
+				78943656203FBB2300910570 /* grid.png */,
+				78943653203FBAD300910570 /* leaves.gif */,
 			);
-			path = texture_02;
+			path = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -381,11 +376,12 @@
 			files = (
 				788F12E8203283D0006FEC63 /* LaunchScreen.storyboard in Resources */,
 				788F133B203293D5006FEC63 /* AGLKTextureMatrix2PointLightShader.vsh in Resources */,
+				78943657203FBB2300910570 /* grid.png in Resources */,
 				788F133F203293D5006FEC63 /* AGLKSkyboxShader.vsh in Resources */,
 				788F12E5203283D0006FEC63 /* Assets.xcassets in Resources */,
 				788F133D203293D5006FEC63 /* AGLKPointParticleShader.vsh in Resources */,
 				788F133C203293D5006FEC63 /* AGLKSkyboxShader.fsh in Resources */,
-				788F1346203293F7006FEC63 /* leaves.gif in Resources */,
+				78943654203FBAD300910570 /* leaves.gif in Resources */,
 				788F133E203293D5006FEC63 /* AGLKTextureMatrix2PointLightShader.fsh in Resources */,
 				788F133A203293D5006FEC63 /* AGLKPointParticleShader.fsh in Resources */,
 				788F12E3203283D0006FEC63 /* Main.storyboard in Resources */,
