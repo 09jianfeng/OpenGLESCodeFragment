@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootTableViewController.h
 //  GLCodeFragment
 //
 //  Created by JFChen on 2018/2/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface RootTableViewController : UITableViewController
 
 @end
-
